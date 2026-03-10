@@ -10,6 +10,14 @@ It's like having a powerful computer somewhere out there on the web that you can
 
 Cloud computing is a technology model that involves the delivery of computing services over the internet. Instead of owning and maintaining physical servers and infrastructure, users can access and use computing resources, applications, and storage provided by either third-party service providers (public cloud) or their own organization (private cloud) through the internet. These services are hosted in data centers located around the world.
 
+Cloud computing is like using electricity ⚡:
+You don’t build your own power plant—you take electricity from the grid when you need it.
+
+Similarly, in cloud computing you use computing power from internet providers instead of owning the hardware.
+
+✅ In one sentence:
+Cloud computing means delivering computing services (servers, storage, databases, networking, software) over the internet.
+
 In essence, cloud computing can involve both third-party providers (public cloud) and an organization's internal resources (private cloud). The distinction lies in whether the computing resources are shared among multiple customers (public cloud) or dedicated to a single organization (private cloud). The flexibility of cloud computing allows organizations to choose the deployment model that best aligns with their needs and requirements.
 
 ## Public Cloud:

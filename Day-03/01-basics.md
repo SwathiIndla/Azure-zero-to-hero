@@ -30,3 +30,50 @@ A **Resource Group** in Azure is a logical container for resources that share th
 
 **Note:** Understanding Azure resources, resource groups, and Azure Resource Manager is fundamental to effectively utilize and manage your resources in the Azure cloud.
 
+azure resource manager:
+when we click on create button in azure portal----> the portal converts the request to restapi with all the data ---->that rstapi goes to ARM --->the ARM checks the request is autenticated and authorized --->ARM validates:
+
+Resource name format
+Region availability
+Resource quotas
+Dependency checks
+--------> then send the request to resource provider
+Examples:
+
+Resource	   Resource Provider
+VM	          Microsoft.Compute
+Storage     	Microsoft.Storage
+App Service  	Microsoft.Web
+    |
+    
+Region Selection
+(User selected region like East US / West Europe)
+  |
+  v
+Azure Datacenter in that Region
+  |
+  v
+Fabric Controller / Orchestrator
+  |
+  v
+Checks Infrastructure Availability
+   - Datacenter
+   - Cluster
+   - Rack
+   - Physical Server
+  |
+  v
+Allocates Host Machine
+(CPU, Memory, Storage, Network)
+  |
+  v
+Hypervisor Creates VM / Service
+  |
+  v
+Resource Provisioned
+  |
+  v
+Status Sent Back to ARM
+  |
+  v
+Azure Portal Shows "Deployment Succeeded"
